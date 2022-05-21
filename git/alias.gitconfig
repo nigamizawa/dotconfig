@@ -1,0 +1,10 @@
+[alias]
+  ad = add
+  pl = pull
+  ps = push
+  ck = checkout
+  st = status
+  fch = fetch
+  cmt = commit
+  bra = branch
+  rbe = rebase
