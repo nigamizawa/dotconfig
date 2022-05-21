@@ -20,3 +20,14 @@ done
 ```
 
 ## Updating
+
+Run `zprezto-update` to automatically check if there is an update to Prezto. If there are no file conflicts, Prezto and its submodules will be automatically updated. If there are conflicts you will be instructed to go into the `$ZPREZTODIR` directory and resolve them yourself.
+
+To pull the latest changes and update submodules manually:
+
+```
+cd $ZPREZTODIR
+git pull
+git submodule sync --recursive
+git submodule update --init --recursive
+```
