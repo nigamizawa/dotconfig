@@ -1,0 +1,4 @@
+[include]
+	path = ~/.config/git/main.gitconfig
+	path = ~/.config/git/ghq.gitconfig
+	path = ~/.config/git/alias.gitconfig
