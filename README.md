@@ -3,5 +3,5 @@
 ## Installation this repository
 
 ```
-git clone https://github.com/nigamizawa/dotfiles.git ~/.config
+git clone https://github.com/nigamizawa/dotconfig.git ~/.config
 ```
