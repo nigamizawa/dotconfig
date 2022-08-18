@@ -1,0 +1,35 @@
+##############################################################################
+# Basic plugins
+##############################################################################
+
+##### color scheme #####
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+hook_add = '''
+colorscheme iceberg
+'''
+
+##### Auto close parentheses #####
+[[plugins]]
+repo = 'cohama/lexima.vim'
+hook_add = '''
+'''
+
+##### vim-surround #####
+[[plugins]]
+repo = 'tpope/vim-surround'
+hook_add = '''
+'''
+
+#####  resizing of vim windows. #####
+[[plugins]]
+repo = 'simeji/winresizer'
+hook_add = '''
+let g:winresizer_start_key = '<C-W>'
+'''
+
+##### indent #####
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+'''
