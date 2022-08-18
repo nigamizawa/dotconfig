@@ -1,0 +1,19 @@
+##############################################################################
+# Status Bar plugins
+##############################################################################
+
+[[plugins]]
+#[NOTE] :help airline
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+""""" Theme """""
+let g:airline_theme='dark' "[default] dark
+
+""""" Tab Setting """""
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+
+""""" unicode symbols """""
+
+let g:airline_powerline_fonts = 1
+'''

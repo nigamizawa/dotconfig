@@ -1,0 +1,22 @@
+##############################################################################
+# Git plugins
+##############################################################################
+
+[[plugins]]
+repo  = 'airblade/vim-gitgutter'
+hook_add = '''
+  let g:gitgutter_sign_column_always = 1
+  highlight GitGutterAdd ctermfg=green
+  highlight GitGutterChange ctermfg=cyan
+  highlight GitGutterDelete ctermfg=red
+  highlight GitGutterChangeDelete ctermfg=yellow
+  nmap <Leader>p <Plug>(GitGutterPrevHunk)
+  nmap <Leader>n <Plug>(GitGutterNextHunk)
+  " nnoremap <silent><Leader>p :GitGutterPrevHunk<CR>
+  " nnoremap <Leader>n :GitGutterNextHunk<CR>
+'''
+
+[[plugins]]
+repo  = 'tpope/vim-fugitive'
+hook_add = '''
+'''
